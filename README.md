@@ -26,11 +26,11 @@ pnpm start
 http://localhost:3000
 
 ### 5. Configure API Keys
-#### GPT-4o Mini API Key
+#### - GPT-4o Mini API Key
 - Sign up at OpenAI if you don't have an account.
 - Get your API key from the OpenAI dashboard.
 - Set the API key in Flowise AI.
-#### Vectara API Key
+#### - Vectara API Key
 - Sign up at Vectara and create a new corpus.
 - Get the API key and set it in Flowise AI.
 
