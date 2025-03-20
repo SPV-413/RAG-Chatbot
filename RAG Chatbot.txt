@@ -1,0 +1,17 @@
+Deploying the RAG Chatbot on a Website.
+
+To integrate the chatbot into a website, add the following script anywhere in the <body> tag of your HTML file:
+
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "b0c05bb2-5fd4-487d-b730-44e7938ebd3a",
+        apiHost: "http://localhost:3000",
+    })
+</script>
+
+
+NOTE:
+
+Use OpenAI API key (for GPT-4o Mini integration) and Vectara API Key.
+
